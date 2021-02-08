@@ -1,0 +1,132 @@
+<!DOCTYPE>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+    <title>
+        Marketplaces
+    </title>
+</head>
+
+<body class="NoFoto">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <img src="MarketplaceLogo.png" class="img-fluid" width="3.5%" height="3.5%">
+                <a class="navbar-brand" href="../Practica02.html">MarketPlace</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../Practica02.html">Casas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../Practica02_1.html">Bancario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../Practica02_2.html" tabindex="-1" aria-disabled="true">Ropa</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit" >Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <span class="navbar-text">
+            <h2>Vivienda 5</h2>
+          </span>
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8">
+                <img src="../PH-01.jpg">
+            </div>
+            <div class="col-4">
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputEmail4">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="inputPassword4">Contraseña</label>
+                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress">Dirección 1</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputAddress2">Address 2</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="inputCity">Ciudad</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="form-group col-md-4">
+                        <label for="inputState">País</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Usted quiere...</option>
+                          <option>Comprar</option>
+                          <option>Alquilar</option>
+                          <option>Contactar sin más</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2">
+                        <label for="inputZip">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-group col-md-2">
+                        <textarea class="form-control" id="story" name="story"
+                                rows="3" >Me llamo ...</textarea>
+                      </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <footer class="bd-footer text-muted">
+        <div class="container-fluid" >
+            <p>
+                <h1 style="position: relative;">Contactos</h1>
+            </p>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Viviendas</th>
+                        <th scope="col">Bancario</th>
+                        <th scope="col">Ropa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Email</th>
+                        <td> <a href="mailto:Viviendas@marketplace.com" target="_blank" id="link_footer">Viviendas@marketplace.com</a></td>
+                        <td> <a href="mailto:Bancario@marketplace.com" target="_blank" id="link_footer">Bancario@marketplace.com</a></td>
+                        <td> <a href="mailto:Ropa@marketplace.com" target="_blank" id="link_footer">Ropa@marketplace.com</a></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Telefono</th>
+                        <td> <a href="tel:639874682" id="link_footer">+34 639874682</a></td>
+                        <td> <a href="tel:639874683" id="link_footer">+34 639874683</a></td>
+                        <td> <a href="tel:639874684" id="link_footer">+34 639874684</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </footer>
+</body>
